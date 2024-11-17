@@ -1,0 +1,15 @@
+[package]
+name = "esport_betting"
+version = "1.0.0"
+authors = []
+
+[addresses]
+EsportBetting = '0x2fd270881cb2458bc9827c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
